@@ -1,0 +1,89 @@
+body {
+    font-family: noto sans, sans-serif;
+    background: linear-gradient(whitesmoke, rgb(252, 250, 234)) fixed;
+}
+header {
+    border: solid 0px aliceblue;
+    border-radius: 6px;
+    background-color: aliceblue;
+    margin: 8px 8px 8px 8px;
+    padding: 5px 20px 5px 20px;
+    box-shadow: 0px 4px 10px 3px rgb(180, 180, 180);
+}
+.bimbamtxt {
+    margin: 0;
+    text-align: left;
+    font-weight: 600px;
+    font-family: Helvetica, sans-serif;
+}
+.wrappertxt {
+    margin: 0;
+    text-align: center;
+    padding: 15px 18px 15px 18px;
+}
+.bimbamtxt,
+.signin,
+.signup {
+    display: inline;
+}
+a {
+    color: rgb(0, 0, 167);
+    text-decoration: none;
+}
+a:active {
+    color: rgb(108, 108, 255);
+}
+.signup {
+    float: right;
+    padding-right: 11px;
+}
+.signin {
+    float: right;
+}
+.wrapper {
+    border: solid 0px white;
+    border-radius: 6px;
+    box-shadow: 0 0 15px 5px rgb(180, 180, 180);
+    background-color: white;
+    width: 1170px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+footer {
+    margin: 70px 0 50px 0;
+    text-align: center;
+}
+.en,
+.ru,
+.ukr {
+    color: rgb(110, 110, 110);
+    padding: 0 15px 0 15px;
+    display: inline;
+}
+.kyivtxt {
+    font-size: 20px;
+    margin: 0;
+    padding: 0 30px 15px 30px;
+}
+.kyivtxth3 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0 30px 15px 30px;
+}
+.wikihrf {
+    color: rgb(52, 52, 255);
+}
+.kyivimg1,
+.kyivimg2,
+.kyivimg3 {
+    display: inline;
+    padding: 0 10px 10px 10px;
+    width: 350px;
+    height: 300px;
+}
+.kyivimg1 {
+    padding-left: 36px;
+}
